@@ -1,16 +1,19 @@
-import React from 'react'
+import { Header } from '@/components/Header';
+import { Hero } from '@/components/Hero';
+import { Projects } from '@/components/Projects';
+import { Skills } from '@/components/Skills';
+import { Contact } from '@/components/Contact';
+import { Footer } from '@/components/Footer';
 
-const page = () => {
+export default function Page() {
   return (
-    <>
-
-      <div className="items-center text-4xl font-bold text-blue-400" >
-
-        <h1>Welcome to my web!</h1>
-
-      </div>
-    </>
-  )
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+    </div>
+  );
 }
-
-export default page
