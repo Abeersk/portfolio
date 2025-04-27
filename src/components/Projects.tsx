@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import proj1 from "@/assets/e-commerce.png"
+import proj2 from "@/assets/portfolio.png"
 
 const projects = [
   {
@@ -13,10 +14,10 @@ const projects = [
   },
   {
     title: "Portfolio Website",
-    image: "", // Placeholder image
+    image: proj2, 
     description: "A sleek personal portfolio to showcase my development skills.",
-    github: "https://github.com/yourname/portfolio",
-    demo: "https://portfolio.example.com",
+    github: "https://github.com/Abeersk/portfolio",
+    demo: "https://heartfelt-empanada-212c14.netlify.app/",
   },
 ];
 
