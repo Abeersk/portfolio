@@ -3,6 +3,7 @@
 import Image from "next/image";
 import proj1 from "@/assets/e-commerce.png"
 import proj2 from "@/assets/portfolio.png"
+import proj3 from "@/assets/fb_clone.png"
 
 const projects = [
   {
@@ -19,6 +20,14 @@ const projects = [
     github: "https://github.com/Abeersk/portfolio",
     demo: "https://heartfelt-empanada-212c14.netlify.app/",
   },
+  {
+    title:"Facebook Login Page Clone",
+    image:proj3,
+    description:"This project allowed me to replicate a real-world UI while sharpening my front-end development and responsive design skills.",
+    github:"https://github.com/Abeersk/Facebook_login_page_clone",
+    demo:"https://facebook-login-page-clone-rosy.vercel.app/"
+
+  },
 ];
 
 export function Projects() {
@@ -27,7 +36,7 @@ export function Projects() {
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-blue-600 animate-[fadeIn_1s_ease-in-out]">
         My Projects
       </h2>
-      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {projects.map((project, index) => (
           <div
             key={index}

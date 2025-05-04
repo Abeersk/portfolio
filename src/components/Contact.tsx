@@ -99,7 +99,7 @@ export function Contact() {
       {/* Social Links */}
       <div className="flex justify-center gap-8 text-xl">
         <a
-          href="mailto:youremail@example.com"
+          href="shayanshaikh@gmail.com"
           className="group flex items-center gap-2 text-gray-800 hover:text-blue-600 transition-colors duration-300"
           aria-label="Email"
         >
