@@ -15,7 +15,8 @@ export function Hero() {
           <Typewriter
             options={{
               strings: [
-                "Full-Stack Developer",
+                "Front-End Developer",
+                "Build Agent-AI Apps",
                 "Next.js Specialist",
                 "TypeScript Lover",
                 "Python Enthusiast"
