@@ -117,8 +117,7 @@ export function Contact() {
           GitHub
         </a>
         <a
-          href="https://www.linkedin.com/in/muhammad-abeer-b94a522b7/"
-          target="_blank"
+          href="https://www.linkedin.com/in/abeer-shaikh-431087381/"
           rel="noopener noreferrer"
           className="group flex items-center gap-2 text-gray-800 hover:text-blue-600 transition-colors duration-300"
           aria-label="LinkedIn"
